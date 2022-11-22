@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T12:08:24.339Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ydIGkAUGQALqH9tTEEZf" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T06:40:02.243Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="tuPDtIAXZUVA3DSz0UdT" version="20.5.3" type="github">
   <diagram id="NjfbwW2NH3Iu1pzXM0LN" name="第 1 页">
-    <mxGraphModel dx="1125" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1123" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kjhjxPwAItvc373IeSmL-128" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="827" y="1050" width="793" height="300" as="geometry" />
+          <mxGeometry x="827" y="960" width="793" height="310" as="geometry" />
         </mxCell>
         <mxCell id="kjhjxPwAItvc373IeSmL-1" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="1754" width="960" height="1430" as="geometry" />
+          <mxGeometry x="850" y="1720" width="960" height="1430" as="geometry" />
         </mxCell>
         <mxCell id="kjhjxPwAItvc373IeSmL-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Zookeeper&lt;br&gt;注册中心&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="764" y="70" width="120" height="60" as="geometry" />
@@ -147,9 +147,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-61" value="处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-60">
+        <mxCell id="kjhjxPwAItvc373IeSmL-61" value="处理(非必须)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-60">
           <mxGeometry x="0.0251" y="2" relative="1" as="geometry">
-            <mxPoint x="-3" y="-13" as="offset" />
+            <mxPoint x="19" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kjhjxPwAItvc373IeSmL-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-41" target="kjhjxPwAItvc373IeSmL-64">
@@ -199,7 +199,7 @@
         <mxCell id="kjhjxPwAItvc373IeSmL-50" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ProviderModel&lt;br&gt;服务提供者数据&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1429" y="750" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-56" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;注册URLS&lt;br&gt;针对zk的地址&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kjhjxPwAItvc373IeSmL-56" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;服务注册URLS&lt;br&gt;(针对zk的地址)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1243" y="780" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kjhjxPwAItvc373IeSmL-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-59" target="kjhjxPwAItvc373IeSmL-44">
@@ -219,178 +219,212 @@
         <mxCell id="kjhjxPwAItvc373IeSmL-59" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;暴露&lt;br&gt;接口信息&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1243" y="860" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-64" target="kjhjxPwAItvc373IeSmL-131">
+        <mxCell id="kjhjxPwAItvc373IeSmL-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-64" target="kjhjxPwAItvc373IeSmL-131">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kjhjxPwAItvc373IeSmL-133" value="生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-132">
           <mxGeometry x="-0.325" y="2" relative="1" as="geometry">
-            <mxPoint x="-2" y="2" as="offset" />
+            <mxPoint x="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kjhjxPwAItvc373IeSmL-64" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;核心发布流程&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1394" y="900" width="130" height="50" as="geometry" />
+          <mxGeometry x="1431" y="900" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-74" target="kjhjxPwAItvc373IeSmL-76">
+        <mxCell id="kjhjxPwAItvc373IeSmL-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-99" target="kjhjxPwAItvc373IeSmL-176">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-78" value="getWrapper" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-77">
-          <mxGeometry x="0.0182" y="1" relative="1" as="geometry">
-            <mxPoint x="3" y="-4" as="offset" />
+        <mxCell id="kjhjxPwAItvc373IeSmL-223" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-222">
+          <mxGeometry x="-0.2088" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-74" target="kjhjxPwAItvc373IeSmL-93">
+        <mxCell id="kjhjxPwAItvc373IeSmL-99" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Invocation&lt;br&gt;具体一次调用请求&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1100" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-109" target="kjhjxPwAItvc373IeSmL-196">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-101" value="getInvoker" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-100">
-          <mxGeometry x="-0.0168" y="1" relative="1" as="geometry">
-            <mxPoint y="-2" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-74" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ProxyFactory&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;负责生成接口的动态代理&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1459" y="1170" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-76" target="kjhjxPwAItvc373IeSmL-80">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-86" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-85">
-          <mxGeometry x="0.4468" y="4" relative="1" as="geometry">
-            <mxPoint x="-2" y="-2" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-76" target="kjhjxPwAItvc373IeSmL-112">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1175" y="1208" />
-              <mxPoint x="1175" y="1285" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-116" value="export" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-115">
-          <mxGeometry x="0.0667" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-76" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Wrapper&lt;br&gt;(DemoServiceImpl)的代理类&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1216" y="1170" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-79" target="kjhjxPwAItvc373IeSmL-76">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-88" value="生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-81">
-          <mxGeometry x="0.0667" y="1" relative="1" as="geometry">
-            <mxPoint x="-3" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-79" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;DemoService&lt;br&gt;接口&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1185" y="1260" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-80" target="kjhjxPwAItvc373IeSmL-76">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-87" value="依赖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-82">
-          <mxGeometry x="0.0061" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-80" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;DemoServiceImpl&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;自己的实现类&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1329" y="1260" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-93" target="kjhjxPwAItvc373IeSmL-76">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-103" value="依赖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-102">
-          <mxGeometry x="-0.08" y="3" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-93" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Invoker&lt;br&gt;代理调用组件&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="1170" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-99" target="kjhjxPwAItvc373IeSmL-93">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-105" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-104">
-          <mxGeometry x="0.02" y="1" relative="1" as="geometry">
-            <mxPoint x="-3" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-99" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Invocation&lt;br&gt;具体一次调用请求&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="845" y="1170" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-109" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;InjvmExporter&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;代表一个服务实例&lt;br&gt;发布出去&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="845" y="1260" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-112" target="kjhjxPwAItvc373IeSmL-109">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-118" value="发布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-117">
-          <mxGeometry x="-0.1463" y="-1" relative="1" as="geometry">
+        <mxCell id="kjhjxPwAItvc373IeSmL-203" value="add" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-202">
+          <mxGeometry x="-0.0263" y="-1" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-112" target="kjhjxPwAItvc373IeSmL-99">
+        <mxCell id="kjhjxPwAItvc373IeSmL-109" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;InjvmExporter&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;代表一个服务实例&lt;br&gt;发布出去&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1190" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-112" target="kjhjxPwAItvc373IeSmL-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-126" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-125">
-          <mxGeometry x="-0.0026" y="1" relative="1" as="geometry">
+        <mxCell id="kjhjxPwAItvc373IeSmL-229" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-228">
+          <mxGeometry x="-0.2619" y="-4" relative="1" as="geometry">
+            <mxPoint x="-6" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-112" target="kjhjxPwAItvc373IeSmL-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-231" value="发布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-230">
+          <mxGeometry x="-0.25" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-112" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;InjvmProtocol&lt;br&gt;协议组件&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="1260" width="130" height="50" as="geometry" />
+        <mxCell id="kjhjxPwAItvc373IeSmL-112" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;InjvmProtocol&lt;br&gt;协议组件&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1100" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-131" target="kjhjxPwAItvc373IeSmL-135">
+        <mxCell id="kjhjxPwAItvc373IeSmL-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-131" target="kjhjxPwAItvc373IeSmL-135">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1820" y="1013" />
-              <mxPoint x="1820" y="1395" />
+              <mxPoint x="1790" y="925" />
+              <mxPoint x="1790" y="1315" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-131" target="kjhjxPwAItvc373IeSmL-152">
+        <mxCell id="kjhjxPwAItvc373IeSmL-212" value="发布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-208">
+          <mxGeometry x="0.2279" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-131" target="kjhjxPwAItvc373IeSmL-152">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1820" y="1013" />
-              <mxPoint x="1820" y="1099" />
+              <mxPoint x="1790" y="925" />
+              <mxPoint x="1790" y="1002" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-162" value="发布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-161">
-          <mxGeometry x="-0.459" y="-1" relative="1" as="geometry">
-            <mxPoint x="45" y="-1" as="offset" />
+        <mxCell id="kjhjxPwAItvc373IeSmL-211" value="发布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-209">
+          <mxGeometry x="-0.094" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kjhjxPwAItvc373IeSmL-131" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;服务实例URL&lt;br&gt;dubbo://服务实例信息&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1389" y="988" width="140" height="50" as="geometry" />
+          <mxGeometry x="1635" y="900" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-135" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;exportRemote&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;远程服务实例&lt;br&gt;发布&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="1370" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-143" target="kjhjxPwAItvc373IeSmL-74">
+        <mxCell id="kjhjxPwAItvc373IeSmL-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-143" target="kjhjxPwAItvc373IeSmL-176">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-143" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;LocalURL&lt;br&gt;injvm://服务实例信息&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1455.5" y="1074" width="137" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-148" value="本地暴露" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="827" y="1050" width="113" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-150" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="827" y="1350" width="793" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-151" value="远程暴露" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="827" y="1350" width="113" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-152" target="kjhjxPwAItvc373IeSmL-143">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kjhjxPwAItvc373IeSmL-159" value="生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-158">
-          <mxGeometry x="0.0261" y="-4" relative="1" as="geometry">
-            <mxPoint x="3" y="2" as="offset" />
+        <mxCell id="kjhjxPwAItvc373IeSmL-219" value="获取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-177">
+          <mxGeometry x="-0.0645" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-143" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;LocalURL&lt;br&gt;injvm://服务实例信息&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1431" y="977" width="137" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-148" value="本地暴露" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=none;gradientColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="960" width="113" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-150" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1270" width="793" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-151" value="远程暴露" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=none;gradientColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1270" width="113" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-152" target="kjhjxPwAItvc373IeSmL-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kjhjxPwAItvc373IeSmL-152" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;exportLocal&lt;br&gt;本地服务实例&lt;br&gt;发布(默认优先)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="1074" width="130" height="50" as="geometry" />
+          <mxGeometry x="1635" y="977" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-166" target="kjhjxPwAItvc373IeSmL-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-170" value="doLocalExport" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-169">
+          <mxGeometry x="-0.029" y="2" relative="1" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-166" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;RegistryProtocol&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1247" y="1290" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-237" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-168" target="kjhjxPwAItvc373IeSmL-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-238" value="发布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-237">
+          <mxGeometry x="-0.25" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-168" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;DubboProtocol&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1290" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-171" target="kjhjxPwAItvc373IeSmL-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-204" value="add" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-201">
+          <mxGeometry x="0.2933" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-171" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;DubboExporter&lt;br&gt;代表一个服务实例发布出去&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1380" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-176" target="kjhjxPwAItvc373IeSmL-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-233" value="export" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-232">
+          <mxGeometry x="0.2934" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-176" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Invoker&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;代理调用组件&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1208" y="977" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-178" target="kjhjxPwAItvc373IeSmL-180">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-182" value="getWrapper" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-181">
+          <mxGeometry x="-0.269" y="4" relative="1" as="geometry">
+            <mxPoint x="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-178" target="kjhjxPwAItvc373IeSmL-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-192" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-191">
+          <mxGeometry x="0.3649" y="2" relative="1" as="geometry">
+            <mxPoint x="-7" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-178" target="kjhjxPwAItvc373IeSmL-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-221" value="生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-220">
+          <mxGeometry x="-0.25" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-178" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ProxyFactory&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;负责生成接口的动态代理&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1208" y="1060" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-180" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Wrapper&lt;br&gt;(DemoServiceImpl)的代理类&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1438" y="1060" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-185" target="kjhjxPwAItvc373IeSmL-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-190" value="依赖ref" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="kjhjxPwAItvc373IeSmL-189">
+          <mxGeometry x="0.341" y="2" relative="1" as="geometry">
+            <mxPoint x="19" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-185" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;DemoServiceImpl&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;自己的实现类&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="1130" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-196" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;exporters&lt;br&gt;已发布的exporter&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="893" y="1190" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-235" value="export" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-234" target="kjhjxPwAItvc373IeSmL-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-234" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Invoker&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;代理调用组件&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1449" y="1290" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="kjhjxPwAItvc373IeSmL-135" target="kjhjxPwAItvc373IeSmL-234">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kjhjxPwAItvc373IeSmL-135" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;exportRemote&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;远程服务实例&lt;br&gt;发布&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1635" y="1290" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
